@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nabla&family=Salsa&display=swap');
+:root{
+    --dark:  rgb(36, 36, 37);
+    --yellow: #FEE715FF ;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Nabla', cursive;
+}
+
+body{
+    font-size: 1.3rem;
+    font-family: 'Salsa', cursive;
+    background-color: var(--dark);
+    color: var(--yellow);
+    /* text-align: center; */
+    display: block;
+}
+
+.container{
+    width: 50% ;
+    margin: auto;
+}
+
+input,label{
+    border-width: 0.3rem;
+    border-radius: 0.5rem;
+    border-color: var(--yellow);
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button{
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    border-color: var(--yellow);
+    color: var(--yellow);
+    background: transparent;
+    border-radius: 0.3rem;
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+button:hover {
+    color: black;
+    background-color: var(--yellow);
+}
+
+#output{
+    margin-bottom: 3.2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.footer{
+    font-size: 1.2rem;
+    text-align: center;   
+    display: block;
+}
+
+.footer-header{
+    font-family: 'Nabla', cursive;
+    font-size: 1.8rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+  
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+li a{
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    font-size: 1.3rem;
+}
